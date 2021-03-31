@@ -732,6 +732,10 @@ p {
   transition: fill var(--transit-properties);
 }
 
+.modal-close:hover {
+  cursor: pointer;
+}
+
 .modal-close:hover,
 .modal-close:focus {
   background-color: var(--accent-brand);
