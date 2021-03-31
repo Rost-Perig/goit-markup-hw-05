@@ -177,8 +177,7 @@ p {
 }
 
 .link::after .site-navi .link,
-.out-navi .link,
-.footer-navi .link {
+.out-navi .link {
   transition: color var(--transit-properties);
 }
 
@@ -652,6 +651,7 @@ p {
 .footer-navi .link {
   color: var(--white-opacity);
   line-height: 1.71;
+  transition: color var(--transit-properties);
 }
 .footer-navi li + li {
   margin-top: 9px;
