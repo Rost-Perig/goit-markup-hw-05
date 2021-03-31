@@ -150,6 +150,7 @@ p {
 .site-navi .link,
 .site-navi .current {
   position: relative;
+  transition: color var(--transit-properties);
 }
 
 .site-navi .link::after,
